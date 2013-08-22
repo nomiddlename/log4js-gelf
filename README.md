@@ -1,0 +1,4 @@
+log4js-gelf
+===========
+
+GELF appender for log4js - DO NOT USE! THIS IS NOT READY! IT'S MEANT FOR AN UNRELEASED VERSION OF LOG4JS-NODE!
