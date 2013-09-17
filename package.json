@@ -14,5 +14,16 @@
     "graylog"
   ],
   "author": "",
-  "license": "BSD"
+  "license": "Apache 2",
+  "peerDependencies": {
+    "log4js": ">=0.7"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.12.1",
+    "sandboxed-module": "~0.2.2"
+  },
+  "dependencies": {
+    "debug": "~0.7.2"
+  }
 }
