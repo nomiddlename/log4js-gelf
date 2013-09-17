@@ -1,4 +1,5 @@
 "use strict";
+/*jshint expr:true */
 var should = require('should')
 , sandbox = require('sandboxed-module')
 , setupLogging = function(options, category, compressedLength) {
@@ -146,8 +147,8 @@ describe('log4js gelfAppender', function() {
         facility: 'nonsense'
       });
       test.gelfAppender({
-          level: "debug",
-          data: [ "Just testing." ]
+        level: "debug",
+        data: [ "Just testing." ]
       });
     });
 
