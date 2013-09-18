@@ -31,6 +31,8 @@ Once installed, configure it as part of the log4js initialisation:
         }
     });
     
+The GELF appender will log events via UDP to the configured server.
+    
 Options
 -------
 * `host` (String) - hostname of your GELF/graylog2 server where the
