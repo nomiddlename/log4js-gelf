@@ -1,6 +1,6 @@
 {
   "name": "log4js-gelf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "GELF appender for log4js",
   "main": "index.js",
   "scripts": {
