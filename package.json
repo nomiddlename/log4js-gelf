@@ -2,11 +2,14 @@
   "name": "log4js-gelf",
   "version": "0.0.1",
   "description": "GELF appender for log4js",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nomiddlename/log4js-gelf.git"
+  },
   "keywords": [
     "gelf",
     "logging",
@@ -16,7 +19,7 @@
   "author": "",
   "license": "Apache 2",
   "peerDependencies": {
-    "log4js": ">=0.7"
+    "log4js": ">= 0.7.0"
   },
   "devDependencies": {
     "should": "~1.2.2",
