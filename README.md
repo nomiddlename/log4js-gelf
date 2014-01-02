@@ -3,7 +3,7 @@ log4js-gelf
 
 [GELF](http://www.graylog2.org/about/gelf) format appender for
 [log4js-node](http://github.com/nomiddlename/log4js-node). Requires
-log4js version 0.7 or later to use. 
+log4js version 0.7 or later to use. NOTE: log4js 0.7 has not yet been released. If you're using log4js 0.6.x you don't need this module, the gelf appender is already included.
 
 Installation
 ------------
